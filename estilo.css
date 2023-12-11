@@ -1,0 +1,84 @@
+body {
+    background-color: lightsteelblue;
+    margin: 0%;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    margin-top: 6px;
+
+}
+button{
+    cursor: pointer;
+}
+.titulo {
+    position: relative;
+    font-size: 400%;
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-style: italic;
+
+}
+
+.row {
+    display: flex;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+hr {
+    margin-bottom: 50px;
+}
+
+.img {
+    height: 400px;
+    width: 400px;
+}
+
+.producto img {
+    margin-left: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.producto  p{
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-style: italic;
+    margin-top: -35%;
+    margin-left: 34%;
+    text-align: left;
+    font-size: 20px;
+}
+.parrafo p{
+    margin-left: 34%;
+    text-align: left;
+    font-size: 18px; 
+    margin-bottom: 25%;
+}
+.pedido {
+    padding: 0 90px;
+    display: flex;
+    align-items: center;
+}
+
+.patata {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.pedido img {
+    margin-right: 10px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
